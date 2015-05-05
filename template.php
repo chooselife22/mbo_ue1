@@ -70,7 +70,7 @@ echo "<vxml version=\"2.1\" >";
 	   				<prompt>Your login credentials are correct. You are now logged in.</prompt>
 	   				<goto next="#loginMenu"/>
 	   			</if>
-	   			<prompt>Your login credentials are wrong. fuck you.</prompt>
+	   			<prompt>Your login credentials are wrong.</prompt>
 	   			<goto next="#goodbye"/>
 	   		</filled>
        </subdialog>
